@@ -62,3 +62,17 @@ c = f'{a} is a {b} flower'
 print(c)
 c = f'{a.title()} is a {b} flower'
 print(c)
+
+a = 10.5
+b = 4.2
+print("Add:", a+b)
+print("Sub:", a-b)
+print("Mul:", a*b)
+print("Div:", a/b)
+
+z1 = 2+3j
+z2 = 1+2j
+print("Add:", z1+z2)
+print("Sub:", z1-z2)
+print("Mul:", z1*z2)
+print("Div:", z1/z2)
