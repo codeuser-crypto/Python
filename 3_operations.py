@@ -59,3 +59,39 @@ print("Number: %d" % num1)
 
 print("Number: %2d" % num1)
 print("Number: %2d" % num2)
+
+for i in range(5,15):
+    print("%2d is the number" %i)
+
+for i in range(5,15):
+    print("%1d is the number" %i)
+
+x=int(input('enter x value'))
+y=int(input('enter y value'))
+z=x+y
+print(z)
+
+a=2
+b=4
+print(f"sum of {a} and {b} is {a+b}")
+print(f"product of {a} and {b} is {a*b}")
+print(f"quotient of {a} and {b} is {a/b}")
+print(f"remainder of {a} and {b} is {a%b}")
+print(f"{a} to the power of {b} is {a**b}")
+print(f"floor division of {a} and {b} is {a//b}")
+print(f"subtract {b} from {a} is {a-b}")
+print(f"floor division of {b} and {a} is {b//a}")
+
+
+p=True
+q=False
+print(f"p and q is {p and q}")
+print(f"p or q is {p or q}")
+print(f"not p is {not p}")
+print(f"not q is {not q}")
+print(f"p and not q is {p and not q}")
+print(f"p or not q is {p or not q}")
+print(f"not p and q is {not p and q}")
+print(f"not p or q is {not p or q}")
+print(f"not p and not q is {not p and not q}")
+print(f"not p or not q is {not p or not q}")
